@@ -1,0 +1,400 @@
+﻿body
+{
+    height: 2000px;
+}
+.contener{
+    width:900px;
+    margin:auto;
+
+}
+/*header*/
+.header
+{
+    
+}
+.header .slider
+{
+     height: 550px;
+    background: url(img/a.png) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+     overflow:hidden;
+}
+.header .slider .enwan ,
+.header .slider .navbar,
+.header .slider .prag,
+.header .slider .login
+{
+    float:right;
+    width:50%;
+   
+}
+.header .slider .enwan
+{
+   
+    color:#fff;
+    font-size:x-large;
+    text-transform:uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+            font-family:'Brush Script Std';
+
+}
+.header .slider .navbar
+{
+    
+}
+.header .slider .navbar ul
+{
+    list-style:none;
+   padding-left:10px;
+   overflow:hidden;
+   float:right;
+   padding-top:40px;
+   margin-bottom:50px;
+}
+.header .slider .navbar ul li
+{
+    float:left;
+   
+}
+.header .slider .navbar ul li a
+{
+    padding:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.header .slider .navbar ul li a:link
+{
+    color:#ffffff;
+}
+.header .slider .navbar ul li a:hover
+{
+    background-color:#5ebbc2;
+    border: 10px solid #5ebbc2 ;
+  border-radius:10px;
+}
+.header .slider .prag h1
+{
+     text-transform:uppercase;
+     padding-left:10px;
+     font-size:70px;
+     font-weight:bolder;
+     color:#5ebbc2;
+     padding-right:20px;
+     
+}
+.header .slider .prag p
+{
+    color:#fff;
+    padding-left:10px;
+    padding-right:80px;
+}
+.header .slider .login
+{
+    
+    
+    background-color:#5ebbc2;
+    text-transform:uppercase;
+    text-align:center;
+  
+    
+    border-radius:10px ;
+    
+}
+.header .slider .login h2
+{
+    text-align:center;
+    color:#fff;
+}
+.header .slider .login textarea
+{
+    text-align:left;
+    height:45px; 
+    resize:none; 
+    border-radius:10px ;
+    margin-bottom:20px;
+    color:#c5c5c5;
+    font-size:18px;
+    line-height:2.5em;
+    border: 1px solid #fff; 
+}
+.header .slider .login button
+{
+    border:none;
+    background-color:#130d27;
+    color:#fff;
+    width:230px;
+    height:45px;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+      overflow: hidden;
+  position: relative;
+}
+.header .slider .login button::after
+{
+    background: #fff;
+    cursor:pointer;
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+}
+.header .slider .login button:hover
+{
+    background: #fff;
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+}
+/*header*/
+/*services*/
+.services
+{
+    overflow:hidden;
+}
+.services h2
+{
+    text-transform:uppercase;
+    padding-bottom:20px;
+    font-size:50px;
+    padding-left:50px;
+}
+.services span
+{
+    color:#5ebbc2;
+}
+.services img
+{
+    padding-left:50px;
+    padding-top:20px;
+}
+.services p
+{
+    float:left;
+    padding-left:65px;
+    text-align:left;
+    font-weight:bold;
+    padding-bottom:30px;    
+}
+/*services*/
+/*story*/
+.story
+{
+    background-color:#5ebbc2;
+    overflow:hidden;
+}
+.story .sto p ,
+.story .sto .button button
+{
+    width:50%;
+    float:left;
+    background-color:#5ebbc2;
+}
+.story .sto p
+{
+    color:#fff;
+    padding:0 20px 20px 40px;
+    font-weight:600;
+    padding-top:20px;
+}
+.story .sto button
+{
+    float:right;
+    color:#fff;
+    background:#130d27;
+    font-size:large;
+    text-transform:uppercase;
+    cursor:pointer;
+    padding: 15px 70px 15px 70px;
+    border-radius:10px;
+    border: 1px solid #130d27; 
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.story .sto button:hover
+{
+     border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+/*story*/
+/*pricnic*/
+.pricnic
+{
+    overflow:hidden;
+     padding-top:30px;
+    background-color:#efefef;
+}
+.pricnic h2
+{
+    color:#120e29;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:50px;
+}
+.pricnic .cards  div
+{
+    width:28.333333%;
+    float:left;
+    background-color:#fff;
+    border:20px solid #efefef ;
+    text-align:center;
+    color:#120e29;
+    border-radius:50px;
+}
+.pricnic p
+{
+    padding-bottom:10px;
+    font-size:large;
+}
+/*pricnic*/
+/*last*/
+.last
+{
+     overflow:hidden;
+     padding-top:30px;
+     padding-bottom:30px;
+}
+.last .all
+{
+         overflow:hidden;
+}
+.last .all .shimal ,
+.last .all .yamen
+{
+    width:50%;
+    float:left;
+}
+.last .all .shimal h2
+{
+    text-align:center;
+    text-transform:uppercase;
+    color:#130d27;
+    font-weight:bold;
+    font-size:xx-large;
+}
+.last .all .shimal .first p ,
+.last .all .shimal .first img
+{
+    width:60%;
+    float:left;
+}
+.last .all .shimal .first
+{
+    overflow:hidden;
+}
+.last .all .shimal .first p
+{
+    margin:20px 0 20px 0;
+    padding :20px 20px 20px 20px ;
+
+}
+.last .all .shimal .first img
+{
+   margin:40px 0 20px 0;
+    width:100px;
+    height:100px;
+  box-shadow:-1px -3px 15px -3px #615687 ;
+  border-radius:50px;
+}
+.last .all .shimal .second
+{
+    overflow:hidden;
+}
+.last .all .shimal .second p ,
+.last .all .shimal .second img
+{
+    width:60%;
+    float:left;
+}
+.last .all .shimal .second p
+{
+    margin:20px 0 20px 0;
+    padding :20px 20px 20px 20px ;
+    background-color:#93ced4;
+    border-radius:10px;
+    color:#fff;
+}
+.last .all .shimal .second img
+{
+    margin:30px 0 20px 0;
+    width:100px;
+    height:100px;
+    box-shadow:-1px -3px 15px -3px #615687 ;
+    border-radius:50px;
+}
+.last .all .yamen
+{
+    overflow:hidden;
+}
+.last .all .yamen h2
+{
+    text-align:center;
+    text-transform:uppercase;
+    color:#130d27;
+    font-weight:bold;
+    font-size:xx-large;
+}
+.last .all .yamen .pic img
+{
+    width:33.333333%;
+    float:left;
+    margin:0 0 20px 20px;
+    padding:20px 10px 20px 10px;
+    width:100px;
+    height:100px;
+        box-shadow:-1px -3px 15px -3px #615687 ;
+    border-radius:10px;
+}
+/*last*/
+/*aghr*/
+.aghr
+{
+     overflow:hidden;
+     background-color:#130d27;
+          padding-top:30px;
+     padding-bottom:30px;
+
+}
+.aghr .off p ,
+.aghr .off h2
+{
+    float:right;
+    width:50%;
+}
+.aghr .off p
+{
+    font-weight:bold;
+    color:#fff;
+
+}
+.aghr .off h2
+{
+    text-align:right;
+        color:#5ebbc2;
+        font-family:'Brush Script Std';
+        font-size:xx-large;
+}
+/*aghr*/
